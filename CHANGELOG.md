@@ -4,27 +4,18 @@
 ### Bug Fixes
 - typespecs for watchdog/1
 - fix dialyzer error for systemd:set_status/1
+- docs for `systemd_journal_h`
 - **journal_h:** Dialyzer error
 
 ### Documentation
 - correct the in-doc description of return value for watchdog/1
 - fix typos
+- add syntax highlighting on systemd example
 
 ### Features
 - add warning log message if there is no readiness message sent
 - send MAINPID message on socket start
-
-
-<a name="v0.6.2"></a>
-## [v0.6.2] - 2021-12-30
-### Bug Fixes
-- docs for `systemd_journal_h` ([`9979ba5`](https://github.com/hauleth/erlang-systemd/commit/9979ba53c8a0c8d02294cbfb5bf4ba3be4ab4da0))
-
-### Documentation
-- add syntax highlighting on systemd example ([`a580cab`](https://github.com/hauleth/erlang-systemd/commit/a580cab9808d0aa8b1ad10fa18409af3c940f1a5))
-
-### Features
-- add functions to set custom status ([`9342d36`](https://github.com/hauleth/erlang-systemd/commit/9342d3654981044a3fcbf67fef7fc41cd855b946))
+- add functions to set custom status
 
 
 <a name="v0.6.1"></a>
@@ -151,8 +142,7 @@
 <a name="0.1.0"></a>
 ## 0.1.0 - 2020-01-15
 
-[Unreleased]: https://github.com/hauleth/erlang-systemd/compare/v0.6.2...HEAD
-[v0.6.2]: https://github.com/hauleth/erlang-systemd/compare/v0.6.1...v0.6.2
+[Unreleased]: https://github.com/hauleth/erlang-systemd/compare/v0.6.1...HEAD
 [v0.6.1]: https://github.com/hauleth/erlang-systemd/compare/0.6.0...v0.6.1
 [0.6.0]: https://github.com/hauleth/erlang-systemd/compare/0.5.3...0.6.0
 [0.5.3]: https://github.com/hauleth/erlang-systemd/compare/0.5.2...0.5.3
