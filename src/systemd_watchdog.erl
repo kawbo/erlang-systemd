@@ -111,7 +111,6 @@ notify(#state{enabled = true, timeout = Timeout}) when
         end,
     try Check() of
         true ->
-            ?LOG_DEBUG("Watchdog check is healthy"),
             systemd:notify({watchdog, "1"});
         false ->
             ?LOG_WARNING("Watchdog check is unhealthy");
